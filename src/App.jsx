@@ -52,7 +52,7 @@ function App() {
         */}
         <div className="relative z-20 text-white">
           
-          <Layout>
+          
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
@@ -63,7 +63,7 @@ function App() {
               <Route path="/properties/:id" element={<PropertyDetails />} />
             </Routes>
             <WhatsAppButton />
-          </Layout>
+          
           
         </div>
       </div>
