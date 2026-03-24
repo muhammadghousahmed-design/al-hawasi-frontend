@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";  // ← capital L
 import Home from "./pages/Home";
-import Services from "./pages/services";
+import Services from "./pages/Services";
 import Properties from "./pages/Properties";
 import AdminLogin from './pages/AdminLogin';   
 import AdminDashboard from './pages/AdminDashboard';  
